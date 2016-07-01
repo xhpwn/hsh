@@ -1,2 +1,2 @@
 # hsh
-Making any machine home sweet home
+home sweet home
