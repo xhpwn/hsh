@@ -14,6 +14,7 @@ alias lt="ls -alt"
 alias p="pwd"
 alias cl="clear"
 alias svim="sudo vim"
+alias bucket="ssh bucket@10.192.71.70"
 
 set softtabstop=2
 
