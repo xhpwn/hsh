@@ -7,17 +7,20 @@ PS1="`shorthostname` \! $ "
 HISTSIZE=50
 
 alias mail=mailx
-alias l="ls"
-alias ll="ls -l"
+alias l="ls -l"
 alias la="ls -al"
 alias lt="ls -alt"
 alias p="pwd"
 alias cl="clear"
 alias svim="sudo vim"
-alias bucket="ssh bucket@10.192.71.70"
 
 set softtabstop=2
 
 function c() {
     cd "$@" && ls -l;
+}
+
+function park() {
+		$file = "$@";
+		cat ~/u/data/u3/park/pub/cs240/grades/saxena20/$file;
 }

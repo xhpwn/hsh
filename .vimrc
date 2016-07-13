@@ -1,6 +1,6 @@
 " takes advantage of vim improvements on vi
 set nocompatible
-"
+
 " make backspace work as expected
 set backspace=eol,start,indent
 
@@ -29,3 +29,5 @@ set ruler
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 
 set noswapfile
+
+set tabstop=2
