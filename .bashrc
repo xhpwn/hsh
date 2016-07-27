@@ -13,6 +13,7 @@ alias lt="ls -alt"
 alias p="pwd"
 alias cl="clear"
 alias svim="sudo vim"
+alias v="vim"
 
 set softtabstop=2
 
@@ -21,6 +22,5 @@ function c() {
 }
 
 function park() {
-		$file = "$@";
-		cat ~/u/data/u3/park/pub/cs240/grades/saxena20/$file;
+	cat ~/u/data/u3/park/pub/cs240/grades/saxena20/"$@";
 }
